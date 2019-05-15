@@ -1,0 +1,10 @@
+[package]
+name = "adder"
+version = "0.1.0"
+authors = ["Jay Mundrawala <jay@thechamberofunderstanding.com>"]
+
+[dependencies]
+
+[target.'cfg(target_family = "unix")'.dependencies]
+jemallocator = "0.1.8"
+
